@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+background-color: #fff;
+/*   background-image: url("https://media.istockphoto.com/vectors/web-vector-illustrations-computer-and-account-login-and-password-form-vector-id1288800172");
+background-repeat: no-repeat, repeat; */
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 35px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border:2px solid grey;
+  border-radius: 5px 50px ;
+}
+h1{
+  margin-bottom: 50px;
+  color: black;
+  font-weight: 900;
+}
+h3{
+  font-size: 15px;
+  margin-left: -10px;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form button{
+  color: white;
+  background-color: green;
+  border: 2px solid white;
+  border-radius: 4px 2px;
+  padding: 8px 30px;
+    margin-top: 20px;
+}
+
+body {
+  background: linear-gradient(to bottom, #00cc99 0%, #00cc99 100%); /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #00cc99 0%, #00cc99 100%);
+  background: -moz-linear-gradient(to bottom, #00cc99 0%, #00cc99 100%);
+  background: -o-linear-gradient(to bottom, #00cc99 0%, #00cc99 100%);
+  background: linear-gradient(to bottom, #00cc99 0%, #00cc99 100%);
+   background-image: url("https://thumbs.dreamstime.com/b/movie-action-film-production-backstage-shoot-movie-action-film-production-backstage-cameraman-camcorder-shooting-176491290.jpg");
+  background-repeat: no-repeat, repeat;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
